@@ -42,6 +42,7 @@ RecyclerView.Adapter<StoreAdapter.ViewHolder>(){
 
         fun setListener(store:Store){
             binding.root.setOnClickListener { listener.onClick(store) }
+
         }
     }
 
